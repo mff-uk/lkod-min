@@ -1,24 +1,24 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/katalog.jsonld",
+    "iri": "https://lkod.mff.cuni.cz/zdroj/katalog",
     "typ": "Katalog",
     "název": {
-        "cs": "Lokální katalog otevřených dat",
-        "en": "Local open data catalog"
+        "cs": "Lokální katalog otevřených dat Matematicko-fyzikální fakulty Univerzity Karlovy",
+        "en": "Local open data catalog of the Faculty of Mathematics and Physics of the Charles University"
     },
     "popis": {
-        "cs": "Lokální katalog otevřených dat",
-        "en": "Local open data catalog"
+        "cs": "Lokální katalog otevřených dat Matematicko-fyzikální fakulty Univerzity Karlovy",
+        "en": "Local open data catalog of the Faculty of Mathematics and Physics of the Charles University"
     },
     "kontaktní_bod": {
         "typ": "Organizace",
         "jméno": {
-          "cs": "Jan Novák",
-          "en": "John Newman"
+          "cs": "Jakub Klímek",
+          "en": "Jakub Klímek"
         },
-        "e-mail": "mailto:newman@organization.cz"
+        "e-mail": "mailto:jakub.klimek@matfyz.cuni.cz"
     },
-    "domovská_stránka": "https://data.gov.cz",
+    "domovská_stránka": "https://lkod.mff.cuni.cz",
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008",
     "datová_sada": []
 }
