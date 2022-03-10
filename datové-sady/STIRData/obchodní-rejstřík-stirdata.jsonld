@@ -121,7 +121,7 @@
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
             "přístupová_služba": {
                 "typ": "Datová služba",
-                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/přístupové-služby/sparql",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/přístupové-služby/ldf",
                 "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
                 "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/ldf/",
                 "název": {
