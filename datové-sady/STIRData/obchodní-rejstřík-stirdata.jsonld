@@ -87,8 +87,8 @@
             "typ": "Distribuce",
             "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/obchodní-rejstřík-stirdata/distribuce/sparql",
             "název": {
-                "cs": "SPARQL endpoint",
-				"en": "SPARQL endpoint"
+                "cs": "Apache Jena Fuseki SPARQL endpoint",
+				"en": "Apache Jena Fuseki SPARQL endpoint"
             },
             "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
             "přístupová_služba": {
@@ -97,8 +97,36 @@
                 "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
                 "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
                 "název": {
-                    "cs": "SPARQL endpoint",
-                    "en": "SPARQL endpoint"
+                    "cs": "Apache Jena Fuseki SPARQL endpoint",
+                    "en": "Apache Jena Fuseki SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/obchodní-rejstřík-stirdata",
+				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/obchodní-rejstřík-stirdata/distribuce/vsparql",
+            "název": {
+                "cs": "OpenLink Virtuoso SPARQL endpoint",
+				"en": "OpenLink Virtuoso SPARQL endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/obchodní-rejstřík-stirdata/distribuce/vsparql/přístupové-služby/vsparql",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "název": {
+                    "cs": "OpenLink Virtuoso SPARQL endpoint",
+                    "en": "OpenLink Virtuoso SPARQL endpoint"
                 },
                 "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/obchodní-rejstřík-stirdata",
 				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
