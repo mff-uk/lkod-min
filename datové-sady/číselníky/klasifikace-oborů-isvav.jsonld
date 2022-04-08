@@ -112,7 +112,8 @@
                 "název": {
                     "cs": "SPARQL endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/klasifikace-oborů-isvav"
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/klasifikace-oborů-isvav",
+                "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
             },
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
