@@ -7,7 +7,7 @@
         "en": "Job classification CZ-ISCO, level 5 - category"
     },
     "popis": {
-        "cs": "Klasifikace zaměstnání (CZ-ISCO) - úroveň 5 - Kategorie. Vznil převedením číselníku ČSÚ (https://data.gov.cz/datová-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatové-sady%2F00025593%2F946049754%2F8e1cc4b34ab0939bdb2a1ca4a0ebdbb9) do dalších formátů.",
+        "cs": "Klasifikace zaměstnání (CZ-ISCO) - úroveň 5 - Kategorie. Vznikl převedením číselníku ČSÚ (https://data.gov.cz/datová-sada?iri=https%3A%2F%2Fdata.gov.cz%2Fzdroj%2Fdatové-sady%2F00025593%2F946049754%2F8e1cc4b34ab0939bdb2a1ca4a0ebdbb9) do dalších formátů.",
         "en": "Job classification CZ-ISCO, level 5 - category"
     },
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
