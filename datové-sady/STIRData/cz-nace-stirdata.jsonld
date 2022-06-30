@@ -1,0 +1,122 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "České rozšíření Klasifikace ekonomických činností (CZ-NACE)",
+        "en": "Czech extension of the Classification of Economic Activities (CZ-NACE)"
+    },
+    "popis": {
+        "cs": "České rozšíření Klasifikace ekonomických činností (CZ-NACE). Převedeno do RDF na základě datové sady https://data.gov.cz/zdroj/datové-sady/00025593/f884f59498ad1717083b498b21ef2283",
+        "en": "Czech extension of the Classification of Economic Activities (CZ-NACE). Transformed to RDF from the dataset https://data.gov.cz/zdroj/datové-sady/00025593/f884f59498ad1717083b498b21ef2283"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [
+        "http://publications.europa.eu/resource/authority/country/CZE"
+    ],
+    "klíčové_slovo": {
+        "cs": [
+            "klasifikace ekonomických činností",
+            "STIRData",
+            "Česko",
+            "NACE",
+            "CZ-NACE"
+        ],
+        "en": [
+            "classification of economic activities",
+            "STIRData",
+            "Czechia",
+            "NACE",
+            "CZ-NACE"
+        ]
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/ECON",
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE",
+        "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub.klimek@matfyz.cuni.cz"
+    },
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/trig",
+            "soubor_ke_stažení": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/nace-cz.trig",
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/soubor/nace-cz.trig",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/sparql",
+            "název": {
+                "cs": "Apache Jena Fuseki SPARQL endpoint",
+				"en": "Apache Jena Fuseki SPARQL endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/sparql/přístupové-služby/sparql",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/sparql",
+                "název": {
+                    "cs": "Apache Jena Fuseki SPARQL endpoint",
+                    "en": "Apache Jena Fuseki SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata",
+				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/vsparql",
+            "název": {
+                "cs": "OpenLink Virtuoso SPARQL endpoint",
+				"en": "OpenLink Virtuoso SPARQL endpoint"
+            },
+            "přístupové_url": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata/distribuce/vsparql/přístupové-služby/vsparql",
+                "přístupový_bod": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "popis_přístupového_bodu": "https://obchodní-rejstřík.stirdata.opendata.cz/vsparql",
+                "název": {
+                    "cs": "OpenLink Virtuoso SPARQL endpoint",
+                    "en": "OpenLink Virtuoso SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/cz-nace-stirdata",
+				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        }
+    ]
+}
