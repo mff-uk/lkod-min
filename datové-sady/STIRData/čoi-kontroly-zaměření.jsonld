@@ -65,8 +65,8 @@
             "typ": "Distribuce",
             "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření/distribuce/sparql",
             "název": {
-                "cs": "Apache Jena Fuseki SPARQL endpoint",
-				"en": "Apache Jena Fuseki SPARQL endpoint"
+                "cs": "Virtuoso Open-Source SPARQL endpoint",
+				"en": "Virtuoso Open-Source SPARQL endpoint"
             },
             "přístupové_url": "https://data.mff.cuni.cz/sparql",
             "přístupová_služba": {
@@ -75,8 +75,8 @@
                 "přístupový_bod": "https://data.mff.cuni.cz/sparql",
                 "popis_přístupového_bodu": "https://data.mff.cuni.cz/sparql",
                 "název": {
-                    "cs": "Apache Jena Fuseki SPARQL endpoint",
-                    "en": "Apache Jena Fuseki SPARQL endpoint"
+                    "cs": "Virtuoso Open-Source SPARQL endpoint",
+                    "en": "Virtuoso Open-Source SPARQL endpoint"
                 },
                 "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření",
 				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
