@@ -1,0 +1,93 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření",
+    "typ": "Datová sada",
+    "název": {
+        "cs": "Kontroly ČOI a jejich zaměření",
+        "en": "Check actions of CTIA and their focus"
+    },
+    "popis": {
+        "cs": "Kontroly České obchodní inspekce a jejich zaměření. Převedeno do RDF na základě datové sady https://data.gov.cz/zdroj/datov%C3%A9-sady/00020869/98803 a https://data.gov.cz/zdroj/datové-sady/00020869/99266",
+        "en": "Check actions of the Czech Trade Inspection Authority and their focus. Transformed to RDF from the datasets https://data.gov.cz/zdroj/datov%C3%A9-sady/00020869/98803 and https://data.gov.cz/zdroj/datové-sady/00020869/99266"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "prvek_rúian": [
+        "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [
+        "http://publications.europa.eu/resource/authority/country/CZE"
+    ],
+    "klíčové_slovo": {
+        "cs": [
+            "kontroly",
+            "zaměření kontrol",
+            "ČOI"
+        ],
+        "en": [
+            "check actions",
+            "focus of check actions",
+            "CTIA"
+        ]
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "téma": [
+        "http://publications.europa.eu/resource/authority/data-theme/ECON",
+        "http://publications.europa.eu/resource/authority/data-theme/GOVE",
+        "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+    ],
+    "koncept_euroVoc": [
+        "http://eurovoc.europa.eu/171"
+    ],
+    "kontaktní_bod": {
+        "typ": "Organizace",
+        "jméno": {
+            "cs": "Jakub Klímek"
+        },
+        "e-mail": "mailto:jakub.klimek@matfyz.cuni.cz"
+    },
+    "distribuce": [
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření/distribuce/trig",
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/čoi/coi.trig",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/čoi/coi.trig",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření/distribuce/sparql",
+            "název": {
+                "cs": "Apache Jena Fuseki SPARQL endpoint",
+				"en": "Apache Jena Fuseki SPARQL endpoint"
+            },
+            "přístupové_url": "https://data.mff.cuni.cz/sparql",
+            "přístupová_služba": {
+                "typ": "Datová služba",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření/distribuce/sparql/přístupové-služby/sparql",
+                "přístupový_bod": "https://data.mff.cuni.cz/sparql",
+                "popis_přístupového_bodu": "https://data.mff.cuni.cz/sparql",
+                "název": {
+                    "cs": "Apache Jena Fuseki SPARQL endpoint",
+                    "en": "Apache Jena Fuseki SPARQL endpoint"
+                },
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/čoi-kontroly-zaměření",
+				"specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+            },
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+            }
+        }
+    ]
+}
