@@ -7,8 +7,8 @@
         "en": "Check actions of CTIA and their focus"
     },
     "popis": {
-        "cs": "Kontroly České obchodní inspekce a jejich zaměření. Převedeno do RDF na základě datové sady https://data.gov.cz/zdroj/datov%C3%A9-sady/00020869/98803 a https://data.gov.cz/zdroj/datové-sady/00020869/99266",
-        "en": "Check actions of the Czech Trade Inspection Authority and their focus. Transformed to RDF from the datasets https://data.gov.cz/zdroj/datov%C3%A9-sady/00020869/98803 and https://data.gov.cz/zdroj/datové-sady/00020869/99266"
+        "cs": "Kontroly České obchodní inspekce a jejich zaměření. Převedeno do RDF na základě datové sady https://data.gov.cz/zdroj/datové-sady/00020869/98803 a https://data.gov.cz/zdroj/datové-sady/00020869/99266",
+        "en": "Check actions of the Czech Trade Inspection Authority and their focus. Transformed to RDF from the datasets https://data.gov.cz/zdroj/datové-sady/00020869/98803 and https://data.gov.cz/zdroj/datové-sady/00020869/99266"
     },
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
     "prvek_rúian": [
