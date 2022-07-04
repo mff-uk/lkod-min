@@ -36,7 +36,8 @@
         "http://publications.europa.eu/resource/authority/data-theme/SOCI"
     ],
     "koncept_euroVoc": [
-        "http://eurovoc.europa.eu/171"
+        "http://eurovoc.europa.eu/171",
+        "http://eurovoc.europa.eu/1549"
     ],
     "kontaktní_bod": {
         "typ": "Organizace",
