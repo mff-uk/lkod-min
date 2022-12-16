@@ -3,12 +3,12 @@
     "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/lau-stirdata",
     "typ": "Datová sada",
     "název": {
-        "cs": "Local Administrative Units (LAU)",
-        "en": "Local Administrative Units (LAU) - STIRData"
+        "cs": "Local Administrative Units (LAUs)",
+        "en": "Local Administrative Units (LAUs) - STIRData"
     },
     "popis": {
-        "cs": "Local Administrative Units (LAU) v RDF od projektu STIRData",
-        "en": "Local Administrative Units (LAU) in RDF by the STIRData project"
+        "cs": "Local Administrative Units (LAUs) v RDF od projektu STIRData",
+        "en": "Local Administrative Units (LAUs) in RDF by the STIRData project"
     },
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
     "prvek_rúian": [
