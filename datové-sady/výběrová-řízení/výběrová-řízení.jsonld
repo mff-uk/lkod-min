@@ -41,7 +41,13 @@
     "https://ofn.gov.cz/pracovní-místa/2021-09-23/",
     "https://data.mff.cuni.cz/dokumentace/pracovní-místa-mff-uk/"
   ],
-  "kontaktní_bod": {},
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+        "cs": "Jiří Skalický"
+    },
+    "e-mail": "mailto:jiri.skalicky@matfyz.cuni.cz"
+  },
   "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
   "distribuce": [
     {
