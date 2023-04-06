@@ -1,0 +1,68 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběřová-řízení",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Výběrová řízení na vybraná pracovní místa",
+    "en": "Vacancies for selected positions"
+  },
+  "popis": {
+    "cs": "Datová sada obsahuje informace o vybraných vypisovaných výběrových řízeních na pracovní pozice, aktuálních i již uplynulých.\nSadu je možné využít k sestavení inzerátu apod.\nZvláštní pozornost je třeba věnovat zejména časovým údajům.",
+    "en": "The dataset contains information on selected job vacancies, both current and past.\nThe dataset can be used to compile advertisements, etc.\nParticular attention should be paid to the temporal data."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "prostorové_pokrytí": [],
+  "klíčové_slovo": {
+    "cs": [
+      "výběrová řízení",
+      "pracovní místa",
+      "pracovní pozice",
+      "pracovní příležitosti",
+      "kariéra"
+    ],
+    "en": [
+      "vacancies",
+      "job offers",
+      "employment offers",
+      "careers",
+      "job openings"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "dokumentace": "https://data.mff.cuni.cz/dokumentace/pracovní-místa-mff-uk/",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "koncept_euroVoc": [],
+  "specifikace": [
+    "https://ofn.gov.cz/pracovní-místa/2021-09-23/",
+    "https://data.mff.cuni.cz/dokumentace/pracovní-místa-mff-uk/"
+  ],
+  "kontaktní_bod": {},
+  "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběřová-řízení/distribuce/0",
+      "název": {
+        "cs": "Pracovní místa v JSON-LD",
+        "en": "Vacancies in JSON-LD"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://is.cuni.cz/veda/vyr/token/b90930f2-5396-422c-8f17-65b1998658ab",
+      "přístupové_url": "https://is.cuni.cz/veda/vyr/token/b90930f2-5396-422c-8f17-65b1998658ab",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+      "schéma": "https://data.mff.cuni.cz/dokumentace/pracovní-místa-mff-uk/schémata/pracovní-místa-mff-uk.json"
+    }
+  ]
+}
