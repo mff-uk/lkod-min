@@ -1,6 +1,6 @@
 {
   "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-  "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběřová-řízení",
+  "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběrová-řízení",
   "typ": "Datová sada",
   "název": {
     "cs": "Výběrová řízení na vybraná pracovní místa",
@@ -46,7 +46,7 @@
   "distribuce": [
     {
       "typ": "Distribuce",
-      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběřová-řízení/distribuce/0",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/výběrová-řízení/výběrová-řízení/distribuce/0",
       "název": {
         "cs": "Pracovní místa v JSON-LD",
         "en": "Vacancies in JSON-LD"
