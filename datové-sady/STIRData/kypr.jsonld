@@ -1,0 +1,93 @@
+{
+    "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+    "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/kypr",
+    "typ": "Datová sada",
+    "název": {
+      "cs": "Obchodní rejstřík Kypru dle datového modelu STIRData",
+      "en": "Business register of Cyprus according to the STIRData data model"
+    },
+    "popis": {
+      "cs": "Obchodní rejstřík České republiky reprezentovaný dle datového modelu vyvíjeného v rámci projektu CEF Telecom STIRData.",
+      "en": "Business registry of Cyprus represented according to the data model developed in CEF Telecom project STIRData."
+    },
+    "prvek_rúian": [
+      "https://linked.cuzk.cz/resource/ruian/stat/1"
+    ],
+    "geografické_území": [
+      "http://publications.europa.eu/resource/authority/country/CYP"
+    ],
+    "prostorové_pokrytí": [],
+    "klíčové_slovo": {
+      "cs": [
+        "obchodní rejstřík",
+        "STIRData",
+        "firmy",
+        "Kypr"
+      ],
+      "en": [
+        "business register",
+        "STIRData",
+        "companies",
+        "Cyprus"
+      ]
+    },
+    "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+    "téma": [
+      "http://publications.europa.eu/resource/authority/data-theme/ECON",
+      "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+    ],
+    "koncept_euroVoc": [
+      "http://eurovoc.europa.eu/813",
+      "http://eurovoc.europa.eu/1307",
+      "http://eurovoc.europa.eu/100152",
+      "http://eurovoc.europa.eu/4703",
+      "http://eurovoc.europa.eu/5989"
+    ],
+    "specifikace": [
+      "https://stirdata.github.io/data-specification/"
+    ],
+    "kontaktní_bod": {
+      "typ": "Organizace",
+      "jméno": {
+        "cs": "Jakub Klímek"
+      },
+      "e-mail": "mailto:jakub.klimek@matfyz.cuni.cz"
+    },
+    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
+    "distribuce": [
+      {
+        "typ": "Distribuce",
+        "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/kypr/distribuce/0",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "podmínky_užití": {
+          "typ": "Specifikace podmínek užití",
+          "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+          "autor": {
+            "cs": "Register of Registered Companies, Commercial Names and Cooperatives in Cyprus, STIRData project team"
+          },
+          "databáze_jako_autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+          "autor_databáze": {
+            "cs": "Register of Registered Companies, Commercial Names and Cooperatives in Cyprus, STIRData project team"
+          },
+          "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+          "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+        },
+        "přístupové_url": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql",
+        "přístupová_služba": {
+          "typ": "Datová služba",
+          "přístupový_bod": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql",
+          "popis_přístupového_bodu": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/cy/sparql",
+          "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/kypr/distribuce/0/přístupová-služba",
+          "název": {
+            "cs": "SPARQL endpoint",
+            "en": "SPARQL endpoint"
+          },
+          "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/kypr",
+          "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+        }
+      }
+    ]
+  }
