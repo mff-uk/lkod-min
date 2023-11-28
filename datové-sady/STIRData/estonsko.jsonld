@@ -64,8 +64,14 @@
       },
       "podmínky_užití": {
         "typ": "Specifikace podmínek užití",
-        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "databáze_jako_autorské_dílo": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Estonian Centre of Registers and Information Systems, STIRData project team"
+        },
+        "databáze_jako_autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor_databáze": {
+          "cs": "Estonian Centre of Registers and Information Systems, STIRData project team"
+        },
         "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
         "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
       },
