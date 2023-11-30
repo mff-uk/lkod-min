@@ -25,7 +25,7 @@
       "codelist"
     ]
   },
-  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/DAILY",
   "téma": [
     "http://publications.europa.eu/resource/authority/data-theme/GOVE"
   ],
