@@ -75,10 +75,10 @@
         "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
         "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
       },
-      "přístupové_url": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/la/sparql",
+      "přístupové_url": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/lv/sparql",
       "přístupová_služba": {
         "typ": "Datová služba",
-        "přístupový_bod": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/la/sparql",
+        "přístupový_bod": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/lv/sparql",
         "popis_přístupového_bodu": "https://stirdata-semantic.ails.ece.ntua.gr/api/content/la/sparql",
         "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/STIRData/lotyšsko/distribuce/0/přístupová-služba",
         "název": {
