@@ -7,8 +7,8 @@
     "en": "Organizational structure of CUNI"
   },
   "popis": {
-    "cs": "Organizační struktura Univerzity Karlovy",
-    "en": "Organizational structure of the Charles University"
+    "cs": "Organizační struktura Univerzity Karlovy. Obsahuje zdrojovou distribuci ve formátu JSON-LD a ostatní distribuce vzniklé jeho transformací.",
+    "en": "Organizational structure of the Charles University. Contains source JSON-LD distribution and other distributions resulting from its transformations."
   },
   "prvek_rúian": [
     "https://linked.cuzk.cz/resource/ruian/stat/1"
@@ -48,7 +48,7 @@
   "distribuce": [
     {
       "typ": "Distribuce",
-      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/0",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/originál",
       "podmínky_užití": {
         "typ": "Specifikace podmínek užití",
         "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
@@ -60,7 +60,175 @@
       "přístupové_url": "https://opendata.is.cuni.cz/culcache/download/oragnizacni-struktura.jsonld",
       "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
       "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+      "schéma": "https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json",
+      "název": {
+        "cs": "Zdrojový JSON-LD soubor",
+        "en": "Source JSON-LD file"
+      }
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/0",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ttl",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/1",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.csv",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "schéma": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.csv-metadata.json"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/2",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.jsonld",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.jsonld",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
       "schéma": "https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/3",
+      "název": {
+        "cs": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://data.mff.cuni.cz/sparql",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://data.mff.cuni.cz/sparql",
+        "popis_přístupového_bodu": "https://data.mff.cuni.cz/sparql",
+        "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/3/přístupová-služba",
+        "název": {
+          "cs": "SPARQL endpoint"
+        },
+        "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura",
+        "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
+      }
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/4",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.nq",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.nq",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/n-quads",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/5",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.trig",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.trig",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/6",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.html",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.html",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/html",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDFA"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/7",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.rdf",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.rdf",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/8",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.nt",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.nt",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/9",
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ofn.jsonld",
+      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ofn.jsonld",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
+      "schéma": "https://ofn.gov.cz/práce/2021-09-23/schémata/seznam-pracovišť.json"
     }
   ]
 }
