@@ -213,22 +213,6 @@
       "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.nt",
       "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
       "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
-    },
-    {
-      "typ": "Distribuce",
-      "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura-uk/distribuce/9",
-      "podmínky_užití": {
-        "typ": "Specifikace podmínek užití",
-        "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
-        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-      },
-      "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ofn.jsonld",
-      "přístupové_url": "https://data.mff.cuni.cz/soubory/organizační-struktura-uk/organizační-struktura-uk.ofn.jsonld",
-      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
-      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-      "schéma": "https://ofn.gov.cz/práce/2021-09-23/schémata/seznam-pracovišť.json"
     }
   ]
 }
