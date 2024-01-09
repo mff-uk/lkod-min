@@ -3,12 +3,12 @@
     "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/vypisovatelé-výběrových-řízení",
     "typ": "Datová sada",
     "název": {
-        "cs": "Číselník vypisovatelů výběrových řízení MFF UK",
-        "en": "Codelist of publishers of employment positions at FMP CUNI"
+        "cs": "Číselník vypisovatelů výběrových řízení Univerzity Karlovy",
+        "en": "Codelist of publishers of employment positions at Charles University"
     },
     "popis": {
-        "cs": "Číselník vypisovatelů výběrových řízení MFF UK",
-        "en": "Codelist of publishers of employment positions at FMP CUNI"
+        "cs": "Číselník vypisovatelů výběrových řízení Univerzity Karlovy",
+        "en": "Codelist of publishers of employment positions at Charles University"
     },
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
     "prvek_rúian": [

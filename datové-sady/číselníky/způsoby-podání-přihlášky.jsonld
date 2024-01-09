@@ -3,12 +3,12 @@
     "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky",
     "typ": "Datová sada",
     "název": {
-        "cs": "Číselník způsobů podání přihlášky na pracovní místo MFF UK",
-        "en": "Means of submitting and application for a job at FMP CUNI"
+        "cs": "Číselník způsobů podání přihlášky na pracovní místo Univerzity Karlovy",
+        "en": "Means of submitting and application for a job at Charles University"
     },
     "popis": {
-        "cs": "Číselník způsobů podání přihlášky na pracovní místo MFF UK",
-        "en": "Means of submitting and application for a job at FMP CUNI"
+        "cs": "Číselník způsobů podání přihlášky na pracovní místo Univerzity Karlovy",
+        "en": "Means of submitting and application for a job at Charles University"
     },
     "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/00216208",
     "prvek_rúian": [
@@ -20,7 +20,6 @@
         "cs": [
             "přihláška",
             "způsob podání",
-            "matfyz",
             "číselník"
         ],
         "en": [
