@@ -64,8 +64,8 @@
         "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
         "osobní_údaje": "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
       },
-      "soubor_ke_stažení": "https://is.cuni.cz/veda/vyr/token/b90930f2-5396-422c-8f17-65b1998658ab",
-      "přístupové_url": "https://is.cuni.cz/veda/vyr/token/b90930f2-5396-422c-8f17-65b1998658ab",
+      "soubor_ke_stažení": "https://opendata.is.cuni.cz/culcache/download/pracovni-mista.jsonld",
+      "přístupové_url": "https://opendata.is.cuni.cz/culcache/download/pracovni-mista.jsonld",
       "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
       "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
       "schéma": "https://data.mff.cuni.cz/dokumentace/pracovní-místa-mff-uk/schémata/pracovní-místa-mff-uk.json"
