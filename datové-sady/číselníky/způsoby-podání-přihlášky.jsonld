@@ -51,76 +51,151 @@
     "distribuce": [
         {
             "typ": "Distribuce",
-            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/ttl",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/0",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            },
             "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.ttl",
             "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.ttl",
             "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
-            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/1",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
                 "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
                 "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
                 "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-            }
-        },
-        {
-            "typ": "Distribuce",
-            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/csv",
+            },
             "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.csv",
             "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.csv",
-            "schéma": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.csv-metadata.json",
             "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
             "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+            "schéma": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.csv-metadata.json"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/2",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
                 "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
                 "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
                 "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-            }
-        },
-        {
-            "typ": "Distribuce",
-            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/json-ld",
+            },
             "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.jsonld",
             "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.jsonld",
             "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
             "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD",
-            "schéma": "https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json",
+            "schéma": "https://ofn.gov.cz/číselníky/2022-02-08/schémata/json-ld/číselník.json"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/3",
+            "název": {
+                "cs": "SPARQL endpoint"
+            },
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
                 "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
                 "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
                 "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-            }
-        },
-        {
-            "typ": "Distribuce",
-            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/sparql",
-            "název": {
-                "cs": "SPARQL endpoint"
             },
             "přístupové_url": "https://data.mff.cuni.cz/sparql",
             "přístupová_služba": {
                 "typ": "Datová služba",
-                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/přístupové-služby/sparql",
                 "přístupový_bod": "https://data.mff.cuni.cz/sparql",
                 "popis_přístupového_bodu": "https://data.mff.cuni.cz/sparql",
+                "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/3/přístupová-služba",
                 "název": {
                     "cs": "SPARQL endpoint"
                 },
-                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky",
+                "poskytuje_datovou_sadu": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/organizační-struktura",
                 "specifikace": "https://www.w3.org/TR/sparql11-protocol/"
-            },
+            }
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/4",
             "podmínky_užití": {
                 "typ": "Specifikace podmínek užití",
                 "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
                 "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
                 "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
                 "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-            }
+            },
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.nq",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.nq",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/n-quads",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_QUADS"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/5",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            },
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.trig",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.trig",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/6",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            },
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.html",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.html",
+            "typ_média": "http://www.iana.org/assignments/media-types/text/html",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDFA"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/7",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            },
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.rdf",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.rdf",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+        },
+        {
+            "typ": "Distribuce",
+            "iri": "https://lkod.mff.cuni.cz/zdroj/datové-sady/číselníky/způsoby-podání-přihlášky/distribuce/8",
+            "podmínky_užití": {
+                "typ": "Specifikace podmínek užití",
+                "autorské_dílo": "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+                "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+                "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+                "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+            },
+            "soubor_ke_stažení": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.nt",
+            "přístupové_url": "https://data.mff.cuni.cz/soubory/číselníky/způsoby-podání-přihlášky.nt",
+            "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
+            "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
         }
     ]
 }
